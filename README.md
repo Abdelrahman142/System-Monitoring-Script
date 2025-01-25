@@ -41,12 +41,16 @@ The script generates a system report and sends it as an email for easy monitorin
    git clone https://github.com/your-username/system-monitoring-script.git
 
 ## How To USE :
-#Navigate to the script directory:
+#Navigate to the script directory: 
+```bash
+
+
 cd system-monitoring-script
 #Make the script executable:
 chmod +x generate_report.sh
+```
 
-#Modify the script to include your email and SMTP password: Open generate_report.sh and set the following variables with your information:
+##Modify the script to include your email and SMTP password: Open generate_report.sh and set the following variables with your information:
 EMAIL_SENDER="your-email@gmail.com"
 EMAIL_PASSWORD="your-gmail-app-password"
 EMAIL_SMTP="smtp.gmail.com:587"
@@ -55,16 +59,17 @@ EMAIL_RECIPIENT="recipient-email@gmail.com"
 ./generate_report.sh
 OR
 #Schedule the script to run periodically using cron: Open the cron editor with:
+```
 crontab -e
 THEN
 Add the following line to run the script every hour:
 0 * * * * /path/to/generate_report.sh
-
+```
 #YOU CAN MODFY IT AS YOU LIKE!!!!
 
 
 ##Example Report Output
-
+```
 =====================================
 System Monitoring Report
 Generated on: Mon Sep 20 15:00:00 UTC 2025
@@ -89,7 +94,7 @@ Top 5 Memory-Consuming Processes:
   5678 user     8.5   /usr/bin/xyz
   ...
 -------------------------------------
-
+```
 
 
 
