@@ -42,6 +42,8 @@ The script generates a system report and sends it as an email for easy monitorin
 
 ## How To USE :
 #Navigate to the script directory: 
+
+##put your path in REPORT_FILE varable
 ```bash
 
 
