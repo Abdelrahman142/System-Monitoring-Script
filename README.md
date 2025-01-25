@@ -43,7 +43,7 @@ The script generates a system report and sends it as an email for easy monitorin
 ## How To USE :
 #Navigate to the script directory: 
 
-##put your path in REPORT_FILE varable
+##put your path in REPORT_FILE variable
 ```bash
 
 
@@ -98,13 +98,6 @@ Top 5 Memory-Consuming Processes:
 -------------------------------------
 ```
 
-
-
-
-
-
-
-
-
-
+Screen from gmail
+![Screenshot from 2025-01-25 22-09-00](https://github.com/user-attachments/assets/e882c3be-2abb-4560-96d3-a7655c97c2bf)
 
