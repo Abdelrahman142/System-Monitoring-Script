@@ -49,7 +49,7 @@ echo "Free Memory: ${free} "
 echo "========================"
 procss=$(ps -eo pid,user,%mem,comm --sort=%mem| head -6)
 
-echo "Top 5 Memory-Consuming Processes: \n${procss}"
+echo "Top 5 Memory-Consuming Processes: ${procss}"
 echo "========================"
 }
 REPORT_FILE=<put your path here>/report.txt
